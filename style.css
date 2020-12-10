@@ -2,6 +2,7 @@
     background-color: white;
          }
 
+/* Nav Bar Title */
 ul {
   list-style-type: none;
   margin: 0;
@@ -22,7 +23,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to magenta on hover */
 li a:hover {
   background-color: magenta;
 }

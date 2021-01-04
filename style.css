@@ -2,7 +2,37 @@
     background-color: white;
          }
 
-/* Nav Bar Title */
+  h1 {
+    color: purple;
+    text-align: center;
+/* -------------------------------------------- DIV NOTE ON PAGES ----------------------------------------*/
+div.abs {
+  z-index: 3;
+  position: absolute;
+  background-color: white;
+  right: 100px;
+  top: 400px;
+  width: 300px;
+  height:  100px ;
+  border: 3px solid purple;
+  text-align: center;
+  
+#artifact:hover {
+  opacity: .6;
+  border: 3px solid white;
+  }
+  
+div.stuck {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border: 5px solid purple;
+  text-align: center;
+  z-index: 100;
+  max-width: 50%;
+  left: 25%; 
+}
+/*---------------------------------------------- Nav Bar Title Style -------------------------------------*/
 ul {
   list-style-type: none;
   margin: 0;

@@ -1,11 +1,17 @@
   body {
     background-color: white;
-         }
+}
+
+  h1 {
+    color: purple;
+    text-align: center;
+    
+}
 /* -------------------------------------------- DIV NOTE ON PAGES ----------------------------------------*/
 div.abs {
   z-index: 3;
   position: absolute;
-  background-color: white;
+  background-color: sand;
   right: 100px;
   top: 400px;
   width: 300px;
@@ -15,13 +21,13 @@ div.abs {
   
 #artifact:hover {
   opacity: .6;
-  border: 3px solid purple;
+  border: 3px solid white;
   }
   
 div.stuck {
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: sand;
   border: 5px solid purple;
   text-align: center;
   z-index: 100;
@@ -51,16 +57,9 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to magenta on hover */
+/* Change the link color to lavender on hover */
 li a:hover {
-  background-color: magenta;
+  background-color: #E6E6FA;
 }
   
-ul {
- list-style-type: none;
- margin: 0;
- padding: 0;
- overflow: hidden;
- background-color:purple;
-}
 

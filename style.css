@@ -6,33 +6,6 @@
     color: purple;
     text-align: center;
 }
-/* -------------------------------------------- DIV NOTE ON PAGES ----------------------------------------*/
-div.abs {
-  z-index: 3;
-  position: absolute;
-  background-color: sand;
-  right: 100px;
-  top: 400px;
-  width: 300px;
-  height:  100px ;
-  border: 3px solid purple;
-  text-align: center;
-  
-#artifact:hover {
-  opacity: .6;
-  border: 3px solid white;
-  }
-  
-div.stuck {
-  position: sticky;
-  top: 0;
-  background-color: sand;
-  border: 5px solid purple;
-  text-align: center;
-  z-index: 100;
-  max-width: 50%;
-  left: 25%; 
-}
 /*---------------------------------------------- Nav Bar Title Style -------------------------------------*/
 ul {
   list-style-type: none;
@@ -56,9 +29,40 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to lavender on hover */
+/* Change the link color to magenta on hover */
 li a:hover {
-  background-color: #E6E6FA;
+  background-color: magenta;
 }
   
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  left: 0;
+  overflow: hidden;
+  background-color:purple;
+}
 
+/* -------------------------------------------- DIV NOTE ON PAGES ----------------------------------------*/
+div.abs {
+  z-index: 3;
+  position: absolute;
+  background-color: white;
+  right: 100px;
+  top: 400px;
+  width: 300px;
+  height:  100px ;
+  border: 3px solid purple;
+  text-align: center;
+  
+div.stuck {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border: 5px solid purple;
+  text-align: center;
+  z-index: 100;
+  max-width: 50%;
+  left: 25%; 
+}
